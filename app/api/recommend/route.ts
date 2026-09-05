@@ -128,7 +128,7 @@ For a movie, creator means the director. For a book, creator means the author. T
         Authorization: `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        model: "llama-3.3-70b-versatile",
+        model: "openai/gpt-oss-120b",
         temperature: 0.5,
         messages: [
           { role: "system", content: system },
